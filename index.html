@@ -453,5 +453,79 @@ function showHistoryDetail(h){
 
 render();
 </script>
+  <div class="legal-document">
+        <h1>Disclaimer & Limitation of Liability</h1>
+        
+        <p>The information and services provided on this website are for general informational and tournament management purposes only. By using this platform to organize, host, or participate in chess tournaments, you acknowledge and agree to the following terms:</p>
+
+        <h2>1. Platform Role & Independence</h2>
+        <p>This website functions exclusively as a software platform to facilitate the management and organization of chess tournaments. We do not independently host, sponsor, or endorse the specific events listed on our site. All tournaments are organized and managed by independent third-party organizers.</p>
+
+        <h2>2. Limitation of Liability</h2>
+        <p>Under no circumstances shall the website owners, developers, or affiliates be held liable for any direct, indirect, incidental, consequential, or special damages arising out of your use of the platform. This includes, but is not limited to:</p>
+        <ul>
+            <li>Financial losses related to entry fees, travel expenses, or expected prize money.</li>
+            <li>Loss of data, tournament records, player ratings, or account information.</li>
+            <li>Any physical, emotional, or financial harm resulting from participation in listed events.</li>
+        </ul>
+
+        <h2>3. Disputes and Prize Distribution</h2>
+        <p>We are not responsible for the fulfillment of tournament prizes, guarantees, or entry fee refunds. Any financial transactions, prize payouts, or disputes regarding tournament rules, fair play violations (including cheating allegations), or match outcomes are strictly between the tournament organizer and the participating players.</p>
+
+        <h2>4. Service Interruptions and Technical Errors</h2>
+        <p>While we strive to keep the platform running smoothly, the service is provided on an "as-is" and "as-available" basis. We do not guarantee that the website will be entirely free from server downtime, software bugs, pairing algorithm errors, or data loss. We accept no responsibility for tournaments disrupted by technical failures on our platform.</p>
+
+        <h2>5. User Conduct</h2>
+        <p>We do not actively monitor the conduct of all players or organizers. Users are solely responsible for ensuring their events comply with local laws and standard chess federation regulations where applicable. We reserve the right to remove any user or tournament that violates our community standards, but we assume no liability for failing to do so.</p>
+    </div>
+<style>.legal-document {
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: #000000;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid var(--border-color);
+        }
+
+        h1 {
+            color: var(--heading-color);
+            font-size: 1.75rem;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        h2 {
+            color: var(--heading-color);
+            font-size: 1.25rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Responsive adjustments for mobile screens */
+        @media (max-width: 600px) {
+            .legal-document {
+                padding: 20px;
+                margin: 20px auto;
+            }
+        }
+    </style>
 </body>
 </html>
